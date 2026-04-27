@@ -42,9 +42,11 @@ Limitations identified:
 
 # My Identified Gap (Novelty)
 What is missing in current solutions?
+
 I found that existing tools do not have adequate detection of meaning-based plagiarism.
 
 What problem is still not addressed effectively?
+
 I think that it is difficult to detect paraphrased plagiarism.
 
 My Idea:
