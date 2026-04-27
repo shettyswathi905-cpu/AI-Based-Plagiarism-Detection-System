@@ -3,12 +3,15 @@
 
 # Problem Statement
 What is the problem?
+
 As I understand it, plagiarism is the act of copying someone else's work and presenting it as one's own. These days, many students and writers try to disguise their plagiarized work by altering a few words and using the same underlying ideas. Traditional plagiarism detection tools only check for word-for-word similarities and cannot detect such copied content.
 
 Who does it affect?
+
 I believe this problem impacts students, teachers, researchers and content writers who wish to create original content.
 
 Why is it important?
+
 It is important to solve this problem because plagiarism undermines originality and integrity, as well as hindering the learning process.
 
 # My Understanding of the Problem
