@@ -57,11 +57,11 @@ How you propose to solve the problem:
 I will utilize a deep learning model (Sentence Transformers) to transform text into vectors and subsequently compare sentence similarity.
 
 Possible features:
-I will enable semantic similarity detection
+I will enable semantic similarity detection.
 I will produce a plagiarism report indicating the percentage and content matches.
 
 # Challenges and Open Questions
-I will investigate how to enhance accuracy for complicated sentences
+I will investigate how to enhance accuracy for complicated sentences.
 I need to also find efficient ways to manage large datasets.
 
 # What I Learned
