@@ -2,53 +2,58 @@
 
 ## Problem Statement
 
-Plagiarism means copying someone else’s work and showing it as your own.  
-Nowadays, many students and writers copy content and change a few words to hide it.  
-But existing tools mostly check exact word matching, so they fail to detect paraphrased content.
+Plagiarism means copying someone else’s work and saying it is your own.  
+Nowadays, many students and writers copy content and just change a few words to hide it.  
+But most existing tools only check word matching, so they fail to detect this type of plagiarism.
 
-This problem affects students, teachers, researchers, and content writers because it reduces originality and academic honesty.
+This problem affects students, teachers, researchers, and content writers because it reduces originality and honesty in work.
+
 
 
 ## My Understanding of the Problem
 
-The main issue is that current tools only check words, not meaning.  
-So even if the idea is copied but words are changed, it is not detected.
+From what I understood, the main issue is that current tools only check words, not meaning.  
+So even if the idea is same but words are changed, it is not detected.
 
 Plagiarism is not only copying text, it is also copying ideas.  
-So meaning-based detection is important.
+So meaning-based checking is important.
+
 
 
 ## My Idea
 
 I want to build a system that detects plagiarism based on meaning.  
 It will use Sentence Transformers to understand sentence similarity.  
-It will generate a simple plagiarism report with percentage and matched content.
+Then it will compare content and give a simple report with percentage and matched content.
+
 
 
 ## Existing Solutions
 
-- Turnitin  
-- Grammarly Plagiarism Checker  
-
-These tools are good for direct copy detection.  
-But they fail when content is paraphrased or rewritten.
+I found tools like Turnitin and Grammarly Plagiarism Checker.  
+They are good for detecting exact copied content.  
+But they are not very good when the content is rewritten in different words.
 
 
-## Gap in Existing Systems
+## What is Missing in Current Systems
 
-Current tools do not properly detect meaning-based plagiarism.  
-They depend mostly on word matching.  
-So paraphrased content is often missed.
+Current systems mainly check word matching.  
+They do not properly understand meaning.  
+So paraphrased plagiarism is not detected properly.
 
 
-## Sub-Problems
+## Problem Decomposition
 
-- Detecting meaning-based similarity  
+### Problem in One Sentence
+Current plagiarism tools cannot detect copied content if words are changed but meaning is same.
+
+### Sub-Problems
+- Finding similarity based on meaning  
 - Converting text into vectors  
 - Comparing sentences correctly  
 - Handling large data  
-- Generating clear reports  
-- Improving accuracy for complex sentences  
+- Creating clear reports  
+- Improving accuracy for difficult sentences  
 
 
 ## Stakeholders
@@ -57,38 +62,59 @@ So paraphrased content is often missed.
 - Teachers  
 - Researchers  
 - Content writers  
-- Educational institutions  
+- Colleges and universities  
 
 
 ## Impact on Stakeholders
 
-- Students may lose marks or learn copying habits  
-- Teachers find it difficult to check many assignments  
-- Researchers may lose originality  
-- Writers may lose trust in content  
-- Institutions may face low academic integrity  
+- Students → may lose marks or learn copying habits  
+- Teachers → hard to check many assignments  
+- Researchers → risk of losing original work  
+- Writers → content quality may reduce  
+- Colleges → academic honesty may be affected  
 
 
-## Root Cause
+## Root Cause Analysis
 
-The main reason is that existing systems use word matching only.  
-They do not understand meaning or context.  
+The main reason is that existing tools use word matching only.  
+They do not understand meaning or context.
 
 So paraphrased plagiarism is not detected properly.
 
 
-## 5 Whys Summary
+## 5 Whys
 
-- Plagiarism is not detected because systems check words only  
+- Plagiarism is not detected because words are changed  
+- Tools only check words, not meaning  
 - They use simple methods for fast results  
-- Advanced semantic methods are not used  
-- Because they are complex and require more resources  
+- Advanced methods are not used because they are complex  
+- They need more time, cost, and research  
+
+
+## Cause Effect Flow
+
+Word matching → No meaning understanding → Paraphrased content missed → More plagiarism → Loss of originality
+
+
+## Systemic Causes
+
+- Old technology used in tools  
+- No semantic understanding  
+- Only keyword-based checking  
+
+
+## Situational Causes
+
+- Students change words to hide plagiarism  
+- Lack of awareness about plagiarism  
+- Time pressure  
+- Weak writing skills  
 
 
 ## Scenarios
 
 ### 1. Student Assignment
-A student copies content and changes a few words.  
+A student copies content, changes words, and submits it.  
 The system checks words only and fails to detect plagiarism.
 
 ### 2. Teacher Checking Assignments
@@ -96,22 +122,61 @@ A teacher uploads many assignments.
 The system compares them and finds similar answers.
 
 ### 3. Content Writer Checking Article
-A writer checks originality of content.  
-The system detects similar meaning sentences.
+A writer checks an article.  
+The system finds similar meaning sentences from other sources.
+
+
+## Context Variations
+
+- Students → PDF, Word, short or long answers  
+- Teachers → many or few submissions  
+- Writers → blogs, articles, research papers  
 
 
 ## Assumptions
 
 - Users hide plagiarism by changing words  
 - Meaning-based checking is needed  
-- Sentence Transformers can detect similarity  
-- Reports are useful but not 100% accurate  
+- Sentence Transformers can help detect similarity  
+- System is not 100% perfect  
 - Some similar content is common knowledge  
-- Accuracy depends on data quality  
+- Accuracy depends on dataset quality  
 - Large data needs optimization  
+
+
+## Assumption Refinement
+
+- Many users hide plagiarism by changing words but keeping meaning same  
+- Semantic similarity is better than word matching  
+- Sentence Transformers help in detection  
+- System gives useful but not perfect results  
+- Some matches are not plagiarism  
+- Performance may reduce with large data  
+- Users prefer simple and clear reports  
+
+
+## What I Learned
+
+I learned that plagiarism is not only copying words but also copying ideas.  
+I understood that current tools are not enough for paraphrased content.  
+I also learned that deep learning can help improve detection.
+
+
+## Challenges and Open Questions
+
+I need to improve accuracy for complex sentences.  
+I also need to handle large datasets properly.  
+Performance and speed are also challenges.
+
+
+## Next Steps
+
+I will study Sentence Transformers in detail.  
+I will try to improve my model design.  
+I will also discuss my idea with teachers for feedback.  
 
 
 ## Final Note
 
-This project focuses on detecting plagiarism based on meaning instead of word matching.  
-It helps improve originality, academic honesty, and content quality using deep learning techniques.
+This project is about detecting plagiarism based on meaning instead of only words.  
+It will help students, teachers, and writers maintain originality and improve honesty in work.
