@@ -1,79 +1,117 @@
-# Project Title
-## AI-Based Plagiarism Detection System
+# AI-Based Plagiarism Detection System
 
-# Problem Statement
-What is the problem?
+## Problem Statement
 
-As I understand it, plagiarism is the act of copying someone else's work and presenting it as one's own. These days, many students and writers try to disguise their plagiarized work by altering a few words and using the same underlying ideas. Traditional plagiarism detection tools only check for word-for-word similarities and cannot detect such copied content.
+Plagiarism means copying someone else’s work and showing it as your own.  
+Nowadays, many students and writers copy content and change a few words to hide it.  
+But existing tools mostly check exact word matching, so they fail to detect paraphrased content.
 
-Who does it affect?
+This problem affects students, teachers, researchers, and content writers because it reduces originality and academic honesty.
 
-I believe this problem impacts students, teachers, researchers and content writers who wish to create original content.
 
-Why is it important?
+## My Understanding of the Problem
 
-It is important to solve this problem because plagiarism undermines originality and integrity, as well as hindering the learning process.
+The main issue is that current tools only check words, not meaning.  
+So even if the idea is copied but words are changed, it is not detected.
 
-# My Understanding of the Problem
-Key issues identified:
-- I observed that current tools only compare exact or near word matches
-- They cannot fully grasp semantics or context
+Plagiarism is not only copying text, it is also copying ideas.  
+So meaning-based detection is important.
 
-Why this problem exists:
-- I understood that traditional tools typically rely on keyword matching
-- Deep learning and semantic comprehension are not utilized
 
-Your assumptions:
-- I assume that most users attempt to hide plagiarism by modifying their text
-- I believe a smart system should be capable of detecting similarity based on meaning
+## My Idea
 
-# Research on Existing Solutions
-Existing solutions or tools:
-- I found Turnitin which compares user submissions with online documents and previous student essays.
-- I also discovered Grammarly Plagiarism Checker, which compares copied content with web sources.
+I want to build a system that detects plagiarism based on meaning.  
+It will use Sentence Transformers to understand sentence similarity.  
+It will generate a simple plagiarism report with percentage and matched content.
 
-Observations:
-- I found that these tools are excellent for detecting direct plagiarism.
-- They are widely used in schools and universities.
 
-Limitations identified:
-- I observed that they fail with paraphrased sentences
-- Their comprehension of semantics is limited.
+## Existing Solutions
 
-# My Identified Gap (Novelty)
-What is missing in current solutions?
+- Turnitin  
+- Grammarly Plagiarism Checker  
 
-I found that existing tools do not have adequate detection of meaning-based plagiarism.
+These tools are good for direct copy detection.  
+But they fail when content is paraphrased or rewritten.
 
-What problem is still not addressed effectively?
 
-I think that it is difficult to detect paraphrased plagiarism.
+## Gap in Existing Systems
 
-My Idea:
-I want to develop a system that will compare sentence meaning rather than just word matches, using Sentence Transformers and LLMs.
+Current tools do not properly detect meaning-based plagiarism.  
+They depend mostly on word matching.  
+So paraphrased content is often missed.
 
-# My Proposed Approach
-How you propose to solve the problem:
-I will utilize a deep learning model (Sentence Transformers) to transform text into vectors and subsequently compare sentence similarity.
 
-Possible features:
-I will enable semantic similarity detection.
-I will produce a plagiarism report indicating the percentage and content matches.
+## Sub-Problems
 
-# Challenges and Open Questions
-I will investigate how to enhance accuracy for complicated sentences.
-I need to also find efficient ways to manage large datasets.
+- Detecting meaning-based similarity  
+- Converting text into vectors  
+- Comparing sentences correctly  
+- Handling large data  
+- Generating clear reports  
+- Improving accuracy for complex sentences  
 
-# What I Learned
-I learned that plagiarism extends beyond simply copying words; it encompasses ideas as well.
-I understand that existing tools struggle with detecting semantic similarity.
-I realized that deep learning is the way to enhance plagiarism detection capabilities.
 
-# Next Steps (My Plan)
-I will conduct further research into plagiarism detection and deep learning models, including Sentence Transformers.
-I will discuss my concept with my teachers or mentors to gain their input.
-I will refine my solution, making it clear and functional.
-I will consider its practicality by determining its ease of implementation and efficiency.
+## Stakeholders
 
-# Final Note
-This project focuses on solving the problem of plagiarism more effectively by moving beyond simple word matching. Instead of checking only copied words, my system aims to understand the actual meaning of the content using deep learning techniques like Sentence Transformers and LLMs. This will help in detecting even paraphrased or rewritten plagiarism, which current tools often miss. Through this project, I aim to build a smarter and more accurate plagiarism detection system that supports originality, improves academic integrity, and encourages honest work.
+- Students  
+- Teachers  
+- Researchers  
+- Content writers  
+- Educational institutions  
+
+
+## Impact on Stakeholders
+
+- Students may lose marks or learn copying habits  
+- Teachers find it difficult to check many assignments  
+- Researchers may lose originality  
+- Writers may lose trust in content  
+- Institutions may face low academic integrity  
+
+
+## Root Cause
+
+The main reason is that existing systems use word matching only.  
+They do not understand meaning or context.  
+
+So paraphrased plagiarism is not detected properly.
+
+
+## 5 Whys Summary
+
+- Plagiarism is not detected because systems check words only  
+- They use simple methods for fast results  
+- Advanced semantic methods are not used  
+- Because they are complex and require more resources  
+
+
+## Scenarios
+
+### 1. Student Assignment
+A student copies content and changes a few words.  
+The system checks words only and fails to detect plagiarism.
+
+### 2. Teacher Checking Assignments
+A teacher uploads many assignments.  
+The system compares them and finds similar answers.
+
+### 3. Content Writer Checking Article
+A writer checks originality of content.  
+The system detects similar meaning sentences.
+
+
+## Assumptions
+
+- Users hide plagiarism by changing words  
+- Meaning-based checking is needed  
+- Sentence Transformers can detect similarity  
+- Reports are useful but not 100% accurate  
+- Some similar content is common knowledge  
+- Accuracy depends on data quality  
+- Large data needs optimization  
+
+
+## Final Note
+
+This project focuses on detecting plagiarism based on meaning instead of word matching.  
+It helps improve originality, academic honesty, and content quality using deep learning techniques.
