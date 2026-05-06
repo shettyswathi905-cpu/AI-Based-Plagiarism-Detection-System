@@ -232,4 +232,4 @@ This project solves this by using AI to understand content and detect even rewri
 
 ## References
 [Read PDF](./docs/Paper1.pdf)
-[Read PDF](./docs/Paper 2.pdf)
+[Read PDF](./docs/Paper2.pdf)
