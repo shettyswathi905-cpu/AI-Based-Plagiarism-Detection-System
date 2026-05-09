@@ -1,3 +1,10 @@
+<p align="center">
+  <img src="./comed_kares_logo.jpg" alt="COMED KARES Logo" width="350"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="./era_foundation_logo.jpg" alt="ERA Foundation Logo" width="150"/>
+</p>
+
+
 # AI based Plagiarism Detection System using Deep Learning & LLM
 
 ## Abstract
