@@ -260,28 +260,21 @@ Although challenges such as false positives and evolving AI humanizer tools rema
 
 ---
 
-# Comparison of Research Papers on AI-Based Plagiarism Detection
+## Comparison of Research Papers on AI-Based Plagiarism Detection
 
-| Feature | RS-1: Hybrid AI Detection | RS-2: AI Generated Content Detection | RS-3: PLAGISENSE (SBERT) |
+| Feature | RS-1: Hybrid AI Detection | RS-2: AI Generated Detection | RS-3: PLAGISENSE (SBERT) |
 |---|---|---|---|
-| Research Focus | AI-based plagiarism detection | AI-generated text detection | Semantic plagiarism detection |
-| Main Objective | Detect plagiarism using AI & NLP | Differentiate AI and human text | Detect paraphrased content |
-| Main Problem | Traditional systems fail for advanced plagiarism | AI-generated text bypasses plagiarism tools | Keyword matching fails for paraphrasing |
-| Technology Used | AI, ML, NLP | Transformers + Statistical Analysis | Sentence-BERT + Semantic Embeddings |
-| Main Models | SVM, Random Forest, GBM | BERT, RoBERTa, DistilBERT | Sentence-BERT |
+| Research Focus | AI plagiarism detection | AI-generated text detection | Semantic plagiarism detection |
+| Main Objective | Detect plagiarism using AI & NLP | Identify AI-generated content | Detect paraphrased content |
+| Main Technology | AI, ML, NLP | BERT, RoBERTa | Sentence-BERT |
 | Semantic Analysis | Moderate | High | Very High |
-| AI Content Detection | Limited | Main focus | Future enhancement |
-| Statistical Features | TF-IDF, Cosine Similarity | Perplexity, Burstiness | Cosine Similarity |
+| AI Content Detection | Limited | Main focus | Future scope |
+| Similarity Technique | TF-IDF, Cosine Similarity | Perplexity, Burstiness | Cosine Similarity |
 | Context Understanding | Medium | High | Very High |
 | Paraphrase Detection | Moderate | High | Excellent |
-| Accuracy | High accuracy claimed | Up to 95% | High semantic performance |
-| Dataset | Academic documents | 500K labeled texts | Original & paraphrased texts |
-| Preprocessing | Tokenization, stemming | Normalization, tokenization | Stopword removal, tokenization |
-| Strengths | Comprehensive framework | Strong AI-text detection | Best semantic detection |
-| Weaknesses | Less AI-text focus | False positives exist | Limited AI-text focus |
-| Main Contribution | Hybrid plagiarism framework | AI-generated text detection | Semantic plagiarism using SBERT |
-| Future Scope | Scalability & Ethical AI | Multimodal detection | Multilingual & AI-text detection |
-| Best Use Case | Academic monitoring | AI-content verification | Semantic similarity detection |
+| Main Strength | Comprehensive framework | Strong AI-text detection | Best semantic similarity detection |
+| Best Use Case | Academic plagiarism checking | AI-content verification | Semantic similarity analysis |
+
 
 ---
 
