@@ -1,10 +1,13 @@
 <table width="100%">
   <tr>
     <td align="left">
-      <img src="./era_foundation_logo.jpg" alt="ERA Foundation Logo" width="140"/>
+      <img src="./era_foundation_logo.jpg" width="140"/>
     </td>
+
+    <td width="50%"></td>
+
     <td align="right">
-      <img src="./comed_kares_logo.jpg" alt="COMED KARES Logo" width="320"/>
+      <img src="./comed_kares_logo.jpg" width="320"/>
     </td>
   </tr>
 </table>
