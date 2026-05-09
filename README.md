@@ -1,14 +1,14 @@
-<table width="100%">
-  <tr>
-    <td align="left">
-      <img src="./era_foundation_logo.jpg" width="140"/>
-    </td>
-    <td width="50%"></td>
-    <td align="right">
-      <img src="./comed_kares_logo.jpg" width="320"/>
-    </td>
-  </tr>
-</table>
+<p align="left">
+  <img src="./era_foundation_logo.jpg" width="140" align="left"/>
+</p>
+
+<p align="right">
+  <img src="./comed_kares_logo.jpg" width="320" align="right"/>
+</p>
+
+<br><br><br><br><br>
+
+# AI based Plagiarism Detection System using Deep Learning & LLM
 
 
 # AI based Plagiarism Detection System using Deep Learning & LLM
