@@ -3,15 +3,12 @@
     <td align="left">
       <img src="./era_foundation_logo.jpg" width="140"/>
     </td>
-
     <td width="50%"></td>
-
     <td align="right">
       <img src="./comed_kares_logo.jpg" width="320"/>
     </td>
   </tr>
 </table>
-
 
 
 # AI based Plagiarism Detection System using Deep Learning & LLM
