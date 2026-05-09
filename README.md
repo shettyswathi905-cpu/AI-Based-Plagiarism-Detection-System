@@ -9,9 +9,6 @@
 
 # AI based Plagiarism Detection System using Deep Learning & LLM
 
-
-# AI based Plagiarism Detection System using Deep Learning & LLM
-
 ## Abstract
 
 The rapid advancement of Artificial Intelligence (AI), Natural Language Processing (NLP), and generative AI tools has significantly increased challenges related to plagiarism and academic integrity. Traditional plagiarism detection systems mainly rely on lexical similarity and keyword matching approaches, which are ineffective in identifying paraphrased, semantically modified, and AI-generated content. This research proposes a hybrid AI-based plagiarism detection framework that combines Machine Learning, Deep Learning, Transformer Models, and Semantic Similarity Analysis to detect direct plagiarism, paraphrasing, conceptual similarity, and AI-generated writing.
@@ -22,6 +19,12 @@ Experimental analysis demonstrates that the proposed hybrid system achieves impr
 
 ### Keywords
 Artificial Intelligence, Plagiarism Detection, Deep Learning, Natural Language Processing, Semantic Similarity, Sentence-BERT, BERT, Transformer Models, Cosine Similarity, AI-Generated Content.
+
+---
+
+## Problem Statement
+
+Traditional plagiarism detection systems mainly rely on keyword matching and lexical similarity, making them ineffective in detecting paraphrased, semantically modified, and AI-generated content. The rapid growth of generative AI tools has created a need for intelligent plagiarism detection systems that can understand contextual meaning, semantic similarity, and machine-generated writing patterns.
 
 ---
 
