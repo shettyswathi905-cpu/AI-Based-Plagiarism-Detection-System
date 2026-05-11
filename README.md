@@ -588,9 +588,7 @@ The proposed framework provides a scalable, intelligent, and future-ready soluti
    🔗 https://ijrpr.com/uploads/V6ISSUE11/IJRPR37746.pdf
 
 3. PLAGISENSE: An AI-Based Semantic Plagiarism Detection System Using Sentence-BERT  
-   🔗 https://www.ijprems.com/uploadedfiles/paper/issue_11_november_2025/38927/final/fin_ijprems1763737239.pdf
----
-
+   🔗https://www.ijprems.com/research-paper/plagisense-an-ai-based-semantic-plagiarism--detection-system-using-sentence-bert
 # Declaration
 
 We hereby declare that this research work is original and has been carried out under the guidance of the faculty mentor. All references used in this paper have been properly cited.
