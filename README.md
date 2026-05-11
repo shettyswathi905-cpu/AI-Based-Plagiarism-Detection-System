@@ -19,8 +19,9 @@ Department of MCA
 Dr Ambedkar Institute of Technology  
 
 
-**Guide / Mentor:**  
-Harsha T R 
+**Guide : Harsha T R**  
+**Mentor : Supritha**  
+
 
 ---
 
