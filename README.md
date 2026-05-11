@@ -501,9 +501,7 @@ The system compares:
 
 ## 10.2 Graphical Analysis
 
-```md
-![Accuracy Graph](images/accuracy_graph.png)
-```
+
 
 ---
 
