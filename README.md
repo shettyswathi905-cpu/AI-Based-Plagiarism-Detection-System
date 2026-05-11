@@ -492,10 +492,10 @@ The system compares:
 
 | Metric | Existing System | Proposed System |
 |---|---|---|
-| Accuracy | 80% | 95% |
-| Precision | 65% | 80% |
-| Recall | 50% | 60% |
-| F1-Score | 56% | 69% |
+| Accuracy | 80% | |
+| Precision | 65% | |
+| Recall | 50% | |
+| F1-Score | 56% | |
 
 ---
 
