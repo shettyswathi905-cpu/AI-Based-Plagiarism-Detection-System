@@ -585,10 +585,12 @@ The proposed framework provides a scalable, intelligent, and future-ready soluti
    🔗 https://www.ijert.org/ai-based-plagiarism-detection-system-ijertconv14is020037
 
 2. Plagiarism Detection in AI Generated Content  
-   🔗 https://ijrpr.com/uploads/V6ISSUE11/IJRPR37746.pdf
+   🔗https://ijrpr.com/uploads/V6ISSUE11/IJRPR55854.pdf
+
 
 3. PLAGISENSE: An AI-Based Semantic Plagiarism Detection System Using Sentence-BERT  
    🔗https://www.ijprems.com/research-paper/plagisense-an-ai-based-semantic-plagiarism--detection-system-using-sentence-bert
+   
 # Declaration
 
 We hereby declare that this research work is original and has been carried out under the guidance of the faculty mentor. All references used in this paper have been properly cited.
