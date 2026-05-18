@@ -286,9 +286,9 @@ There is a need for an intelligent plagiarism detection framework capable of und
 # 6. Proposed Solution
 
 The proposed system is a hybrid AI-powered plagiarism detection framework integrating:
-- Semantic similarity analysis
-- Transformer-based contextual embeddings
-- AI-generated content detection techniques
+- Semantic similarity analysis[3]
+- Transformer-based contextual embeddings[2][3]
+- AI-generated content detection techniques[2]
 
 ---
 
