@@ -27,19 +27,19 @@ Dr Ambedkar Institute of Technology
 
 # Abstract
 
-The rapid advancement of Artificial Intelligence (AI), Natural Language Processing (NLP), and generative AI tools has significantly increased challenges related to plagiarism and academic integrity. Traditional plagiarism detection systems mainly rely on lexical similarity and keyword matching techniques, which are ineffective in identifying paraphrased, semantically modified, and AI-generated content.
+The rapid advancement of Artificial Intelligence (AI), Natural Language Processing (NLP), and generative AI tools has significantly increased challenges related to plagiarism and academic integrity. Traditional plagiarism detection systems mainly rely on lexical similarity and keyword matching techniques, which are ineffective in identifying paraphrased, semantically modified, and AI-generated content.[1][2]
 
-This research proposes a hybrid AI-based plagiarism detection framework that combines Machine Learning, Deep Learning, Transformer Models, and Semantic Similarity Analysis for detecting direct plagiarism, paraphrased text, conceptual similarity, and AI-generated writing.
+This research proposes a hybrid AI-based plagiarism detection framework that combines Machine Learning, Deep Learning, Transformer Models, and Semantic Similarity Analysis for detecting direct plagiarism, paraphrased text, conceptual similarity, and AI-generated writing.[1][2][3]
 
-The proposed system integrates BERT, Sentence-BERT (SBERT), RoBERTa, cosine similarity, TF-IDF, perplexity, burstiness, and stylometric analysis for advanced contextual understanding and plagiarism detection. The framework preprocesses textual content, extracts semantic embeddings, computes similarity scores, and classifies text as original, plagiarized, or AI-generated.
+The proposed system integrates BERT, Sentence-BERT (SBERT), RoBERTa, cosine similarity, TF-IDF, perplexity, burstiness, and stylometric analysis for advanced contextual understanding and plagiarism detection. The framework preprocesses textual content, extracts semantic embeddings, computes similarity scores, and classifies text as original, plagiarized, or AI-generated.[1][2]
 
-Experimental analysis demonstrates that the proposed hybrid framework achieves improved accuracy, precision, and contextual understanding compared to traditional plagiarism detection systems. The research concludes that transformer-based semantic plagiarism detection systems provide scalable, reliable, and future-ready solutions for maintaining academic integrity.
+Experimental analysis demonstrates that the proposed hybrid framework achieves improved accuracy, precision, and contextual understanding compared to traditional plagiarism detection systems. The research concludes that transformer-based semantic plagiarism detection systems provide scalable, reliable, and future-ready solutions for maintaining academic integrity.[2][3]
 
 ---
 
 # Keywords
 
-Artificial Intelligence, Plagiarism Detection, Deep Learning, Natural Language Processing, Semantic Similarity, Sentence-BERT, BERT, Transformer Models, Cosine Similarity, AI-Generated Content
+Artificial Intelligence, Plagiarism Detection, Deep Learning, Natural Language Processing, Semantic Similarity, Sentence-BERT, BERT, Transformer Models, Cosine Similarity, AI-Generated Content.[1][2][3]
 
 ---
 
@@ -47,54 +47,54 @@ Artificial Intelligence, Plagiarism Detection, Deep Learning, Natural Language P
 
 ## 1.1 Background
 
-Plagiarism has become a major issue in academic institutions due to the rapid growth of online resources and AI-generated content tools. Students and researchers can easily access online material and modify it using paraphrasing tools or generative AI systems while maintaining the same semantic meaning.
+Plagiarism has become a major issue in academic institutions due to the rapid growth of online resources and AI-generated content tools. Students and researchers can easily access online material and modify it using paraphrasing tools or generative AI systems while maintaining the same semantic meaning.[2][3]
 
-Traditional plagiarism detection systems such as Turnitin and Copyscape mainly depend on string matching and lexical similarity techniques, which are effective only for detecting direct copying.
+Traditional plagiarism detection systems such as Turnitin and Copyscape mainly depend on string matching and lexical similarity techniques, which are effective only for detecting direct copying.[1]
 
-The emergence of Artificial Intelligence (AI), Machine Learning (ML), and Natural Language Processing (NLP) has transformed plagiarism detection methodologies. Transformer-based models such as BERT, RoBERTa, and Sentence-BERT provide contextual understanding of text by analyzing semantic relationships rather than simple keyword overlap.
+The emergence of Artificial Intelligence (AI), Machine Learning (ML), and Natural Language Processing (NLP) has transformed plagiarism detection methodologies. Transformer-based models such as BERT, RoBERTa, and Sentence-BERT provide contextual understanding of text by analyzing semantic relationships rather than simple keyword overlap.[2][3]
 
 ---
 
 ## 1.2 Problem Overview
 
 Traditional plagiarism detection systems fail to identify:
-- Paraphrased plagiarism
-- Semantically modified content
-- AI-generated text
-- Conceptual similarity
+- Paraphrased plagiarism[3]
+- Semantically modified content[3]
+- AI-generated text[2]
+- Conceptual similarity[3]
 
-Most systems depend heavily on keyword matching and lexical similarity approaches.
+Most systems depend heavily on keyword matching and lexical similarity approaches.[1]
 
 ---
 
 ## 1.3 Need for the Study
 
 The rapid growth of generative AI tools has increased challenges related to academic integrity. There is a need for intelligent plagiarism detection systems capable of understanding:
-- Contextual meaning
-- Semantic similarity
-- AI-generated writing patterns
+- Contextual meaning[2][3]
+- Semantic similarity[3]
+- AI-generated writing patterns[2]
 
 ---
 
 ## 1.4 Objectives
 
-- Detect direct plagiarism
-- Detect paraphrased plagiarism
-- Identify AI-generated content
-- Improve semantic similarity analysis
-- Reduce dependency on keyword matching
-- Improve contextual understanding
+- Detect direct plagiarism[1]
+- Detect paraphrased plagiarism[3]
+- Identify AI-generated content[2]
+- Improve semantic similarity analysis[3]
+- Reduce dependency on keyword matching[1]
+- Improve contextual understanding[2][3]
 
 ---
 
 ## 1.5 Scope of the Work
 
 The proposed work focuses on:
-- Academic plagiarism detection
-- Semantic similarity analysis
-- AI-generated text detection
-- Transformer-based NLP models
-- Real-time plagiarism analysis
+- Academic plagiarism detection[1]
+- Semantic similarity analysis[3]
+- AI-generated text detection[2]
+- Transformer-based NLP models[2][3]
+- Real-time plagiarism analysis[1]
 
 The system mainly handles textual data and can later be extended for multimedia plagiarism detection.
 
