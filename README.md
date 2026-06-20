@@ -13,11 +13,10 @@
 
 <div align="center">
 
-**<<Author 1>>**, Dept, USN &nbsp;·&nbsp; **<<Author 2>>**, Dept, USN &nbsp;·&nbsp;**<<Author 3>>**, Dept, USN &nbsp;·&nbsp; **<<Author 4>>**, Dept, USN &nbsp;·&nbsp; **<<Author 5>>**, Dept, USN
-
+**Swathi**, Dept of MCA, USN : 1DA24MC050 &nbsp;·&nbsp; 
 </div>
 
-# PlagiGuard XAI – Advanced AI-Based Multilingual Plagiarism Detection and AI Content Verification System
+#AI-Based Plagiarism Detection System
 
 ## Abstract
 
