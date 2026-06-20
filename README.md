@@ -13,7 +13,7 @@
 
 <div align="center">
 
-**Swathi**, Dept of MCA, USN : 1DA24MC050 &nbsp;·&nbsp; 
+**Swathi**, Dept of MCA, USN : 1DA24MC050 &nbsp;&nbsp; 
 </div>
 
 #AI-Based Plagiarism Detection System
