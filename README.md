@@ -172,118 +172,71 @@ After analysis, plagiarism percentages, AI-content scores, similarity highlights
 
 ## 7. Results and Analysis
 
-
-## 7.1 Plagiarism Detection Performance
-
-The proposed PlagiGuard XAI system was tested on various datasets containing original, copied, paraphrased, translated, and AI-generated content. The hybrid architecture combining Sentence-BERT, RoBERTa, XLM-RoBERTa, Whisper, OCR, and Groq LLM successfully detected plagiarism across multiple content formats including documents, images, audio files, and direct text inputs. The system achieved high detection accuracy while maintaining low false-positive rates, demonstrating its effectiveness in identifying both direct and semantic plagiarism.
-
-## 7.2 Semantic Similarity Analysis
-
-Semantic similarity analysis was performed using Sentence-BERT embeddings and Cosine Similarity. Unlike traditional keyword-matching approaches, the proposed system was able to identify paraphrased and contextually similar content even when exact words were changed. This significantly improved plagiarism detection accuracy for academic documents and research papers.
+The proposed **PlagiGuard XAI** system was evaluated using datasets containing original, copied, paraphrased, translated, and AI-generated content. The system combines **Sentence-BERT, RoBERTa, XLM-RoBERTa, OCR, Whisper, and Groq LLM** to detect plagiarism and AI-generated content across documents, images, audio files, and text inputs. Experimental results show that the hybrid approach provides higher accuracy than traditional plagiarism detection methods.
 
 ### Similarity Formula
 
-[
-Similarity = \frac{A \cdot B}{|A||B|}
-]
+Similarity = (A · B) / (|A| × |B|)
 
 Where:
 
-* **A** = Input Document Vector
-* **B** = Reference Document Vector
+- A = Input Document Vector
+- B = Reference Document Vector
 
----
+### Table 1: Plagiarism Detection Accuracy
 
-### Table I: Detection Accuracy
+| Detection Type | Accuracy |
+|---------------|-----------|
+| Direct Plagiarism | 99% |
+| Semantic Plagiarism | 94% |
+| Paraphrased Content | 95% |
+| Cross-Language Detection | 92% |
+| AI-Generated Content | 97% |
+| OCR Image Analysis | 93% |
+| Audio Content Analysis | 91% |
 
-| Detection Type           | Accuracy |
-| ------------------------ | -------- |
-| Direct Plagiarism        | 99%      |
-| Semantic Plagiarism      | 94%      |
-| Paraphrased Content      | 95%      |
-| Cross-Language Detection | 92%      |
-| AI-Generated Content     | 97%      |
-| OCR Image Analysis       | 93%      |
-| Audio Content Analysis   | 91%      |
+The results indicate that the proposed system effectively detects both direct and semantic plagiarism while supporting multilingual and multimodal content analysis.
 
----
+### Table 2: AI Model Performance Comparison
 
-## 7.3 AI Content Detection
+| Model | Accuracy |
+|---------|----------|
+| TF-IDF | 82% |
+| BERT | 89% |
+| Sentence-BERT | 93% |
+| RoBERTa | 94% |
+| XLM-RoBERTa | 92% |
+| Groq Verification | 96% |
+| Proposed Hybrid Model | 97.8% |
 
-The system utilized RoBERTa and Groq LLM verification models to identify AI-generated content. Experimental results showed that the hybrid detection model effectively distinguished human-written text from machine-generated text. The AI verification module provided confidence scores and explainable insights, helping users understand why content was flagged as AI-generated.
+The hybrid model achieved the highest accuracy by combining semantic similarity analysis and AI-content verification techniques.
 
-### Table II: AI Model Performance
+### Evaluation Metrics
 
-| Model                 | Accuracy |
-| --------------------- | -------- |
-| TF-IDF                | 82%      |
-| BERT                  | 89%      |
-| Sentence-BERT         | 93%      |
-| RoBERTa               | 94%      |
-| XLM-RoBERTa           | 92%      |
-| Groq Verification     | 96%      |
-| Proposed Hybrid Model | 97.8%    |
+**Accuracy**
 
----
+Accuracy = (TP + TN) / (TP + TN + FP + FN) × 100
 
-## 7.4 Multilingual and Multimodal Analysis
+**Precision**
 
-The system successfully supported more than twenty languages, including English, Hindi, Kannada, Tamil, Telugu, French, German, Spanish, Arabic, Chinese, and Japanese. Cross-language plagiarism detection was achieved using XLM-RoBERTa embeddings. Additionally, OCR and Whisper technologies enabled analysis of images and audio files, extending plagiarism detection beyond traditional text documents.
+Precision = TP / (TP + FP)
 
-### Table III: Supported Analysis Types
+**Recall**
 
-| Content Type         | Processing Technology  |
-| -------------------- | ---------------------- |
-| Documents            | Text Parser            |
-| Images               | Tesseract OCR          |
-| Audio Files          | Whisper Speech-to-Text |
-| Text Input           | NLP Processing         |
-| Multilingual Content | XLM-RoBERTa            |
+Recall = TP / (TP + FN)
 
----
+**F1-Score**
 
-## 7.5 Evaluation Metrics
-
-The performance of the system was evaluated using standard machine learning metrics such as Accuracy, Precision, Recall, and F1-Score.
-
-### Accuracy Formula
-
-[
-Accuracy = \frac{TP + TN}{TP + TN + FP + FN} \times 100
-]
-
-### Precision Formula
-
-[
-Precision = \frac{TP}{TP + FP}
-]
-
-### Recall Formula
-
-[
-Recall = \frac{TP}{TP + FN}
-]
-
-### F1-Score Formula
-
-[
-F1 = \frac{2 \times Precision \times Recall}{Precision + Recall}
-]
+F1-Score = 2 × (Precision × Recall) / (Precision + Recall)
 
 Where:
 
-* **TP** = True Positive
-* **TN** = True Negative
-* **FP** = False Positive
-* **FN** = False Negative
+- TP = True Positive
+- TN = True Negative
+- FP = False Positive
+- FN = False Negative
 
----
-
-## 7.6 Overall Analysis
-
-The experimental results indicate that PlagiGuard XAI significantly outperforms traditional plagiarism detection systems by combining semantic similarity analysis, AI-content detection, multilingual support, OCR-based image analysis, and audio transcription. The proposed hybrid model achieved an overall accuracy of approximately **97.8%**, providing reliable and comprehensive plagiarism detection for modern academic and professional applications.
-
-
+Overall, the proposed **PlagiGuard XAI** system achieved an estimated accuracy of **97.8%**, outperforming conventional plagiarism detection approaches through semantic analysis, AI-content detection, multilingual processing, OCR-based image analysis, and speech-to-text audio verification.
 ## 8. Discussion
 
 
