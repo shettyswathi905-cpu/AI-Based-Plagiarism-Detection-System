@@ -8,15 +8,14 @@
 
 ---
 
-# {{Project Title}}
+# AI-Based Plagiarism Detection System
+
 
 <div align="center">
 
 **<<Author 1>>**, Dept, USN &nbsp;·&nbsp; **<<Author 2>>**, Dept, USN &nbsp;·&nbsp;**<<Author 3>>**, Dept, USN &nbsp;·&nbsp; **<<Author 4>>**, Dept, USN &nbsp;·&nbsp; **<<Author 5>>**, Dept, USN
 
 </div>
-# PlagiGuard XAI
-### AI-Based Plagiarism Detection System
 
 ## Overview
 
