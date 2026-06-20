@@ -8,7 +8,6 @@
 
 ---
 
-# AI-Based Plagiarism Detection System
 
 
 <div align="center">
