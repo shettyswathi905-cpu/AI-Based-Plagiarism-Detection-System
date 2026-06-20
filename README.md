@@ -48,9 +48,13 @@ Current plagiarism detection systems rely heavily on keyword matching and exact 
 The specific objectives of this research are:
 
 To develop an advanced AI-powered plagiarism detection and AI content verification system capable of analyzing documents, images, audio files, and direct text inputs.
+
 To implement semantic similarity and plagiarism detection techniques using Deep Learning models such as Sentence-BERT and RoBERTa for identifying copied, paraphrased, and translated content.
+
 To integrate OCR and Speech-to-Text technologies for extracting text from images and audio files and performing plagiarism analysis on the extracted content.
+
 To support multilingual plagiarism detection and AI-content identification across more than twenty languages using transformer-based language models.
+
 To generate accurate and explainable plagiarism reports containing plagiarism percentages, AI-content scores, highlighted similarities, source references, and content improvement suggestions.
 
 ---
