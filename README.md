@@ -25,31 +25,37 @@ The rapid growth of digital content creation and the increasing use of Artificia
 
 ---
 
-## Introduction
+## 1. Introduction
 
 Plagiarism is a major issue in academic institutions, research organizations, publishing industries, and digital content platforms. With the availability of online resources and advanced AI writing tools, it has become easier to generate large amounts of content, making plagiarism detection more challenging than ever before. Existing plagiarism detection tools mainly compare textual similarities and often fail to identify semantic plagiarism, translated content, and AI-generated text. Furthermore, most systems do not support multimodal content such as images and audio files. PlagiGuard XAI is designed to overcome these limitations by combining Artificial Intelligence, Deep Learning, OCR, Speech Recognition, and Large Language Models into a unified platform capable of detecting plagiarism across multiple formats and languages while providing transparent and explainable results.
 
 ---
 
-## Literature Review
+## 2. Literature Review
 
 Several research studies have contributed to the development of plagiarism detection technologies. Recent works on transformer-based architectures such as BERT, RoBERTa, and Sentence-BERT have demonstrated significant improvements in semantic similarity detection. Research on multilingual models like XLM-RoBERTa has enabled effective cross-language plagiarism detection. Other studies have focused on AI-generated content identification using deep learning and large language models. Existing systems such as Turnitin, Copyleaks, Grammarly, Quetext, and PlagScan provide valuable plagiarism detection services but are limited in multimodal support, multilingual processing, explainability, and AI-content verification. The literature survey highlights the need for a comprehensive platform that integrates semantic analysis, OCR, audio transcription, AI detection, and multilingual capabilities within a single framework.
 
 ---
 
-## Problem Statement
+## 3. Problem Statement
 
 Current plagiarism detection systems rely heavily on keyword matching and exact text comparison methods. As a result, they struggle to identify paraphrased content, semantic plagiarism, translated plagiarism, and AI-generated text. Most available systems also lack support for image-based plagiarism detection, audio analysis, multilingual processing, and explainable reporting. These limitations reduce the effectiveness of plagiarism detection in modern educational and professional environments, creating a need for a more intelligent and comprehensive solution.
 
 ---
 
-## Objectives
+## 4. Objectives
 
-The primary objective of PlagiGuard XAI is to develop an advanced plagiarism detection platform capable of analyzing documents, images, audio files, and text inputs. The system aims to detect copied, paraphrased, translated, and AI-generated content using modern AI and deep learning techniques. Additional objectives include supporting multiple languages, generating detailed plagiarism reports, providing explainable AI-based recommendations, ensuring secure user authentication, and improving content originality and academic integrity through accurate and reliable analysis.
+The specific objectives of this research are:
+
+To develop an advanced AI-powered plagiarism detection and AI content verification system capable of analyzing documents, images, audio files, and direct text inputs.
+To implement semantic similarity and plagiarism detection techniques using Deep Learning models such as Sentence-BERT and RoBERTa for identifying copied, paraphrased, and translated content.
+To integrate OCR and Speech-to-Text technologies for extracting text from images and audio files and performing plagiarism analysis on the extracted content.
+To support multilingual plagiarism detection and AI-content identification across more than twenty languages using transformer-based language models.
+To generate accurate and explainable plagiarism reports containing plagiarism percentages, AI-content scores, highlighted similarities, source references, and content improvement suggestions.
 
 ---
 
-## Methodology
+## 5. Methodology
 
 The proposed system follows a structured workflow beginning with user authentication and content upload. Users can upload documents, images, audio files, or enter text directly into the system. The uploaded content is processed through OCR and Speech-to-Text technologies to extract textual information. Language detection is then performed to identify the content language. Semantic similarity analysis is carried out using Sentence-BERT embeddings, while AI-generated content detection is performed using RoBERTa and Groq LLM verification. The system calculates plagiarism scores, generates similarity reports, and presents the results through an interactive dashboard.
 
@@ -81,13 +87,13 @@ END
 
 ---
 
-## Implementation
+## 6.  Implementation
 
 The implementation of PlagiGuard XAI consists of four major components: frontend, backend, database, and AI engine. The frontend is developed using React.js, React Router, CSS3, Axios, and Recharts to provide a responsive and interactive user interface. The backend is built using FastAPI, Python, SQLAlchemy, JWT Authentication, and Pydantic validation to handle API requests and business logic. Supabase PostgreSQL serves as the database and authentication platform, ensuring secure user management and data storage. The AI engine integrates Sentence-BERT, RoBERTa, XLM-RoBERTa, Whisper Speech-to-Text, Tesseract OCR, and Groq LLM APIs to perform advanced plagiarism detection and AI-content verification.
 
 ---
 
-## Results and Analysis
+## 7. Results and Analysis
 
 The proposed system demonstrates strong performance across various plagiarism detection tasks. Similarity calculations are performed using cosine similarity metrics, while model performance is evaluated using accuracy, precision, recall, and F1-score measures.
 
@@ -107,21 +113,33 @@ Experimental evaluations indicate that the system achieves approximately 99% acc
 
 ---
 
-## Discussion
+## 8. Discussion
 
 The results demonstrate that the integration of transformer-based deep learning models significantly improves plagiarism detection accuracy. Sentence-BERT effectively captures semantic relationships between documents, enabling the detection of paraphrased and contextually similar content. XLM-RoBERTa enhances multilingual support, while RoBERTa and Groq APIs improve AI-content detection capabilities. The inclusion of OCR and Speech-to-Text technologies extends the system beyond traditional text analysis, allowing comprehensive multimodal plagiarism detection. Explainable AI reports further increase transparency and user trust in the system.
 
 ---
 
-## Conclusion
+## 9. Conclusion
 
 PlagiGuard XAI successfully combines Deep Learning, NLP, OCR, Speech Recognition, and Large Language Models to create an advanced plagiarism detection and AI content verification platform. The system provides accurate plagiarism analysis, multilingual support, AI-generated content detection, and detailed reporting features. By addressing the limitations of existing plagiarism detection systems, PlagiGuard XAI offers a reliable and scalable solution for maintaining originality, transparency, and academic integrity in modern digital environments.
 
 ---
 
-## Future Scope
+## 10. Future Scope
 
-The future scope of PlagiGuard XAI includes integration with Learning Management Systems (LMS), citation verification modules, blockchain-based document authentication, mobile application development, batch document processing, research paper verification systems, team collaboration features, and advanced explainable AI dashboards. These enhancements can further improve the system's capabilities and expand its adoption across educational institutions, research organizations, and enterprise environments.
+Building on the results of this work, several directions for future enhancement are identified:
+
+Integration with Learning Management Systems (LMS). Connecting the system with educational platforms such as Moodle, Google Classroom, and Canvas would enable automatic plagiarism checking for assignments, research papers, and academic submissions.
+
+Enhanced AI Content Detection. Future versions can incorporate more advanced Large Language Models and Explainable AI techniques to improve the accuracy and transparency of AI-generated content detection.
+
+Mobile and Cloud-Based Deployment. Developing mobile applications and cloud-based services would increase accessibility, scalability, and real-time plagiarism analysis capabilities for users across different platforms.
+
+Advanced Research Paper Verification. Integration of citation checking, reference validation, source credibility analysis, and academic integrity scoring would provide a more comprehensive evaluation of research documents.
+
+Multimodal and Cross-Language Expansion. Further improvements in image, audio, video, and multilingual plagiarism detection using next-generation deep learning models can enhance the system's ability to identify plagiarism across diverse content formats and languages.
+
+Automated Content Improvement Suggestions. Development of intelligent recommendation systems capable of automatically suggesting content rewrites, citation corrections, and originality improvements would enhance the practical usefulness of the platform for students and researchers.
 
 ---
 
